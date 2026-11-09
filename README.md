@@ -11,6 +11,7 @@ The rules were built and validated during an internship in a SecOps team. All or
 | [Suspicious Scheduled Task Creation Using PowerShell](detections/suspicious-powershell-scheduled-task.md) | DeviceProcessEvents | Medium | T1053.005, T1059.001 |
 | [Unauthorized Network Scanning Tool Execution](detections/unauthorized-network-scanner.md) | DeviceProcessEvents | High | T1046 |
 | [Mass Upload of Business Documents to Unsanctioned AI Services](detections/mass-upload-unsanctioned-ai.md) | CloudAppEvents, IdentityInfo, DeviceFileEvents | Medium | T1567, T1020 |
+| [Potentially Sensitive File Uploaded to External AI Service](detections/sensitive-file-upload-ai.md) | CloudAppEvents, IdentityInfo | – | T1567 |
 | [Server Sensor Health State Changed From Active](detections/server-sensor-health-state.md) | DeviceInfo | – | T1562, T1562.001 |
 | [Endpoint Antivirus Baseline Deviation Detected](detections/av-baseline-deviation.md) | DeviceInfo, DeviceTvmInfoGathering | – | T1562, T1562.001 |
 
